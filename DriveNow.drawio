@@ -1,4 +1,4 @@
-<mxfile host="Electron" pages="16">
+<mxfile host="Electron" pages="17">
   <diagram name="Branches-Staff-Training" id="GCZTBz2OHtRqCUm6EP2O">
     <mxGraphModel dx="1055" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -5823,6 +5823,20 @@
             <mxPoint x="430" y="560" as="sourcePoint" />
             <mxPoint x="480" y="510" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FOIydj21_A9ze4nMISTi" name="Part C">
+    <mxGraphModel dx="876" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oOOZF9FL5f6rDlNdcypB-1" parent="1" style="text;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4 1 4;strokeWidth=0;align=left;" value="&lt;p&gt;Section =&amp;gt; 7.7&lt;br&gt;Business rule =&amp;gt; A blacklisted customer cannot book again&lt;br&gt;Why constraints are not enough =&amp;gt; when a new rental or reservation being made we should check that the user is not blocked first&lt;br&gt;How to enforce it =&amp;gt; check if the user is blocked or not first&lt;/p&gt;&lt;p&gt;Section =&amp;gt; 7.6&lt;br&gt;Business rule =&amp;gt; The transfer of vehicle &lt;br&gt;Why constraints are not enough =&amp;gt; there is now check if the vehicle transferred from and to the same branch&lt;br&gt;How to enforce it =&amp;gt; a check on the from and to branches if the two are the same so the transfer can&#39;t be from and to the same location&lt;/p&gt;&lt;p&gt;Section =&amp;gt; 7.9&lt;br&gt;Business rule =&amp;gt; A promo code can’t be used more than its maximum number of uses&lt;br&gt;Why constraints are not enough =&amp;gt; because we need to track the number of reservations that uses this code&lt;br&gt;How to enforce it =&amp;gt; we should make a track when a new reservation being created&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="350" width="600" x="110" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oOOZF9FL5f6rDlNdcypB-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;PART D&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="320" x="220" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
