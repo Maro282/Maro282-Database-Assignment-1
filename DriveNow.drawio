@@ -1,4 +1,4 @@
-<mxfile host="Electron" pages="17">
+<mxfile host="Electron" pages="18">
   <diagram name="Branches-Staff-Training" id="GCZTBz2OHtRqCUm6EP2O">
     <mxGraphModel dx="1055" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -5827,7 +5827,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="FOIydj21_A9ze4nMISTi" name="Part C">
+  <diagram id="FOIydj21_A9ze4nMISTi" name="Part D">
     <mxGraphModel dx="876" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -5837,6 +5837,35 @@
         </mxCell>
         <mxCell id="oOOZF9FL5f6rDlNdcypB-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;PART D&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="320" x="220" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vBllHvKd5MjOMop7XlQ4" name="Part C">
+    <mxGraphModel dx="876" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QnTriDq8lRbE7N4cOtRX-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="PART C" vertex="1">
+          <mxGeometry height="30" width="240" x="280" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QnTriDq8lRbE7N4cOtRX-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;u&gt;1- Questions&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="10" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QnTriDq8lRbE7N4cOtRX-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;7.1 =&amp;gt; What about the regional director? I have no data about him.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;7.2 =&amp;gt; What will happen if someone doesn&#39;t complete the mandatory courses?&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;7.7 =&amp;gt; If any customer is put on the blacklist can he be returned or not?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;7.10 =&amp;gt; If a customer gets 5000 points, then he is now a Platinum user. My question is: what will happen if he redeems points down to 1000? Will he go back to Gold or remain Platinum?&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="750" x="60" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QnTriDq8lRbE7N4cOtRX-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;u&gt;2- Assumptions&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="40" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="QnTriDq8lRbE7N4cOtRX-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;1 - CUSTOMER is a superclass with INDIVIDUAL and CORPORATE as disjoint total subclasses.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 - The agent who received the car is NULL until return.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3 - DAMAGE_REPORT is a weak entity of RENTAL (numbered within each rental)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4 - Photos are a multivalued attribute.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5 - An extension is a recursive 1:1 relationship on RENTAL.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="750" x="60" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="QnTriDq8lRbE7N4cOtRX-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;u&gt;2-&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;u&gt;Contradictions&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="40" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="QnTriDq8lRbE7N4cOtRX-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;1 - “Every employee is assigned to one branch,” but the regional director and senior management aren’t assigned to a branch.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 - “Pricing is set per category” versus “some luxury cars have their own price.” This breaks the rule that a vehicle’s price always comes from its category.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3 - Two employees must be recorded on every rental” versus “the second one is not known until the car is returned.” The receiving agent can’t be NN.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4 - Finance note: “A rental may have several payments,” but corporate clients get one monthly invoice and the SRS never describes an invoice.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: light-dark(rgb(207, 7, 7), rgb(237, 237, 237)); color: light-dark(rgb(255, 255, 255), rgb(237, 237, 237));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(&amp;nbsp; I HAVE CREATED IT&#39;S TABLE BY THE WAY )&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="750" x="60" y="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
